@@ -1,0 +1,16 @@
+@media (max-width: 556px) {
+  .header__content h1 span::before {
+    height: 100%;
+    width: calc(100% + 2rem);
+    transform: rotate(-2deg);
+    z-index: -1;
+  }
+  .header__content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 5.5rem;
+  }
+  .sale__content h2 {
+    font-size: 3.6rem;
+  }
+}
